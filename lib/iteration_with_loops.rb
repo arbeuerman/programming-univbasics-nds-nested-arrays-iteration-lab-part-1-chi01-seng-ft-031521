@@ -11,6 +11,8 @@ def find_even_values(src)
       if inner_array_value % 2 == 0 
         puts inner_array_value
       end 
-    end 
+      inner_array_counter += 1 
+    end
+    outer_array_counter += 1
   end 
 end
