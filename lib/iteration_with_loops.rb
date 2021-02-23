@@ -16,3 +16,5 @@ def find_even_values(src)
     outer_array_counter += 1
   end 
 end
+
+puts find_even_values( [ [10, 11], [99, 50, 3, 4], [23, 41] ])
